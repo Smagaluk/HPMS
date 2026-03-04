@@ -55,7 +55,7 @@ const capabilities = [
     items: [
       {
         title: 'Incentives & Tax Credits',
-        description: 'Deep experience with historic tax credits, new markets tax credits, brownfield incentives, and other programs.'
+        description: 'Deep experience with brownfield incentives, historic tax credits, new markets tax credits, and other public/private financing tools.'
       },
       {
         title: 'Public-Private Partnerships',
@@ -63,7 +63,7 @@ const capabilities = [
       },
       {
         title: 'Debt & Equity Structuring',
-        description: 'Accessing institutional debt markets and equity capital from family offices and institutional investors.'
+        description: 'Leveraging institutional debt markets and equity capital from family offices and institutional investors to optimize capital stacks that maximize value and appropriately mitigate risk.'
       }
     ]
   },

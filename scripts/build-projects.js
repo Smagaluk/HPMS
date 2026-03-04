@@ -47,14 +47,32 @@ function build() {
   }
 
   const files = fs.readdirSync(contentDir).filter((f) => f.endsWith('.md'));
+  const slugOrder = [
+    'factory-yards',
+    'the-amo',
+    'FYNC',
+    'avery',
+    'FYSC',
+    'kwd',
+    'FYGU',
+    'edmund',
+    'milwaukee',
+    'Gibson',
+    '19central',
+    'gateways',
+    'eastpointe',
+    'gardencity',
+    'northend',
+  ];
+  const orderMap = new Map(slugOrder.map((s, i) => [s, i]));
   const projects = files
     .map((f) => path.join(contentDir, f))
     .map(projectFromFile)
     .map((p, i) => ({ id: i + 1, ...p }))
     .sort((a, b) => {
-      const ya = parseInt(a.year, 10) || 0;
-      const yb = parseInt(b.year, 10) || 0;
-      return yb - ya;
+      const ia = orderMap.has(a.slug) ? orderMap.get(a.slug) : slugOrder.length;
+      const ib = orderMap.has(b.slug) ? orderMap.get(b.slug) : slugOrder.length;
+      return ia - ib;
     })
     .map((p, i) => ({ ...p, id: i + 1 }));
 

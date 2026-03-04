@@ -10,6 +10,24 @@ const root = process.cwd();
 const contentDir = path.join(root, 'content', 'projects');
 const jsonPath = path.join(root, 'public', 'projects.json');
 
+const SLUG_ORDER = [
+  'factory-yards',
+  'the-amo',
+  'FYNC',
+  'avery',
+  'FYSC',
+  'kwd',
+  'FYGU',
+  'edmund',
+  'milwaukee',
+  'Gibson',
+  '19central',
+  'gateways',
+  'eastpointe',
+  'gardencity',
+  'northend',
+];
+
 function projectFromFile(filePath) {
   const raw = fs.readFileSync(filePath, 'utf-8');
   const { data } = matter(raw);
@@ -34,11 +52,19 @@ function projectFromFile(filePath) {
 
 export function loadProjectsFromMarkdown() {
   if (!fs.existsSync(contentDir)) return [];
+  const orderMap = new Map(SLUG_ORDER.map((s, i) => [s, i]));
   const files = fs.readdirSync(contentDir).filter((f) => f.endsWith('.md'));
-  return files
+  const projects = files
     .map((f) => path.join(contentDir, f))
     .map(projectFromFile)
-    .map((p, i) => ({ id: i + 1, ...p }));
+    .map((p, i) => ({ id: i + 1, ...p }))
+    .sort((a, b) => {
+      const ia = orderMap.has(a.slug) ? orderMap.get(a.slug) : SLUG_ORDER.length;
+      const ib = orderMap.has(b.slug) ? orderMap.get(b.slug) : SLUG_ORDER.length;
+      return ia - ib;
+    })
+    .map((p, i) => ({ ...p, id: i + 1 }));
+  return projects;
 }
 
 export function loadProjectsFromJson() {
@@ -46,18 +72,9 @@ export function loadProjectsFromJson() {
   return JSON.parse(raw);
 }
 
-function sortByYear(projects) {
-  return [...projects].sort((a, b) => {
-    const ya = parseInt(a.year, 10) || 0;
-    const yb = parseInt(b.year, 10) || 0;
-    return yb - ya;
-  });
-}
-
 export function getProjects() {
-  const projects =
-    process.env.NODE_ENV === 'development' && fs.existsSync(contentDir)
-      ? loadProjectsFromMarkdown()
-      : loadProjectsFromJson();
-  return sortByYear(projects);
+  if (process.env.NODE_ENV === 'development' && fs.existsSync(contentDir)) {
+    return loadProjectsFromMarkdown();
+  }
+  return loadProjectsFromJson();
 }
