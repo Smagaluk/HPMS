@@ -213,10 +213,8 @@ export default function Contact() {
                       <MapPin className="w-5 h-5 text-[#1B2944] flex-shrink-0 mt-0.5" />
                       <div>
                         <p className="text-xs text-[#474E5E] uppercase tracking-wide mb-1">Location</p>
-                        <p className="text-[#070707]">Michigan</p>
-                        <p className="text-sm text-[#474E5E] mt-1">
-                          Detroit · Grand Rapids · Northern Michigan
-                        </p>
+                        <p className="text-[#070707]">151 S Old Woodward</p>
+                        <p className="text-[#070707]">Birmingham, MI</p>
                       </div>
                     </div>
                   </div>
@@ -231,36 +229,6 @@ export default function Contact() {
               </motion.div>
             </div>
           </div>
-        </div>
-      </section>
-
-      {/* Map Section */}
-      <section className="py-16 lg:py-24 bg-[#F3F2ED]">
-        <div className="max-w-7xl mx-auto px-6 lg:px-8">
-          <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true, margin: "-100px" }}
-            transition={{ duration: 0.6 }}
-            className="text-center"
-          >
-            <h2 className="text-2xl font-medium text-[#070707] mb-4">
-              Our Focus: Michigan
-            </h2>
-            <p className="text-[#474E5E] max-w-2xl mx-auto mb-12">
-              We develop and operate real estate across Michigan's major markets, 
-              with deep expertise in Detroit, Grand Rapids, and Northern Michigan.
-            </p>
-            <div className="aspect-[21/9] bg-stone-200 overflow-hidden">
-              <Image
-                src="/website-assets/Other Images/Home Page image.JPG"
-                alt="Michigan landscape"
-                width={1200}
-                height={600}
-                className="w-full h-full object-cover"
-              />
-            </div>
-          </motion.div>
         </div>
       </section>
     </div>

@@ -64,7 +64,7 @@ export default function Footer() {
             <p className="text-xs text-[#F3F2ED]/50">
               © {new Date().getFullYear()} Heritage Development Partners. All rights reserved.
             </p>
-            <p className="text-xs text-[#F3F2ED]/50">Detroit · Grand Rapids · Midwest
+            <p className="text-xs text-[#F3F2ED]/50">151 S Old Woodward, Birmingham, MI
 
             </p>
           </div>

@@ -23,7 +23,29 @@ gallery_images:
   - '/website-assets/Project Images/Edmund/EP6.jpg'
   - '/website-assets/Project Images/Edmund/EP7.jpg'
   - '/website-assets/Project Images/Edmund/EP9.jpg'
-overview: ''
-investment_thesis: ''
-highlights: []
+overview: >-
+  Edmund Place is a 16-unit residential condominium development located
+  in Detroit’s thriving Brush Park neighborhood. The project features
+  thoughtfully designed residences with private rooftop terraces and
+  garage parking, offering modern urban living within one of the city’s
+  most vibrant districts. Located just steps from Detroit’s stadium,
+  theatre, and entertainment corridor, the development provides
+  residents with immediate access to the cultural and economic activity
+  of downtown Detroit.
+
+investment_thesis: >-
+  Positioned in a prime infill location between downtown and Midtown
+  Detroit, Edmund Place delivers high-quality residential product at a
+  competitive price point. The project benefits from Brownfield tax
+  recapture incentives as well as a Neighborhood Enterprise Zone (NEZ)
+  tax abatement for purchasers, enhancing affordability while supporting
+  continued investment in the surrounding neighborhood.
+
+highlights:
+  - Prime Brush Park location near downtown and Midtown Detroit
+  - 16 for-sale condominium residences
+  - Private rooftop terraces for each residence
+  - Attached garage parking
+  - Brownfield tax recapture incentives
+  - Neighborhood Enterprise Zone (NEZ) tax abatement for purchasers
 ---

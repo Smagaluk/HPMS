@@ -100,8 +100,8 @@ export default function Team() {
                   <Image
                     src={person.image}
                     alt={person.name}
-                    width={400}
-                    height={500}
+                    width={280}
+                    height={350}
                     className="w-full h-full object-cover"
                   />
                 </div>

@@ -8,8 +8,19 @@ featured: true
 square_feet: '30,590 sqft'
 units: '23 units'
 year: '2022'
-image_url: ''
-gallery_images: []
+image_url: '/website-assets/Project Images/Avery/1.jpg'
+gallery_images:
+  - '/website-assets/Project Images/Avery/1.jpg'
+  - '/website-assets/Project Images/Avery/2.jpg'
+  - '/website-assets/Project Images/Avery/3.jpg'
+  - '/website-assets/Project Images/Avery/4.jpg'
+  - '/website-assets/Project Images/Avery/5.jpg'
+  - '/website-assets/Project Images/Avery/6.jpg'
+  - '/website-assets/Project Images/Avery/7.jpg'
+  - '/website-assets/Project Images/Avery/8.jpg'
+  - '/website-assets/Project Images/Avery/9.jpg'
+  - '/website-assets/Project Images/Avery/10.jpg'
+  - '/website-assets/Project Images/Avery/11.jpg'
 overview: >-
   Located in the heart of Detroit's historic Woodbridge neighborhood, Avery
   Place is a 23-unit condominium project that was constructed on previously

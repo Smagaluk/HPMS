@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev --hostname 127.0.0.1",
     "build": "npm run build:projects && next build",
     "start": "next start",
     "lint": "next lint",
@@ -69,7 +69,6 @@
     "react-dom": "^18.2.0",
     "react-hook-form": "^7.54.2",
     "react-hot-toast": "^2.6.0",
-    "react-leaflet": "^4.2.1",
     "react-markdown": "^9.0.1",
     "react-quill": "^2.0.0",
     "react-resizable-panels": "^2.1.7",

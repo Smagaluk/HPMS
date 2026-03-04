@@ -1,14 +1,21 @@
 [
   {
     "id": 1,
-    "name": "Factory Yards - Ground up",
+    "name": "Factory Yards - Ground Up",
     "slug": "FYGU",
     "location": "Grand Rapids, MI",
     "status": "Planning",
     "project_type": "Multifamily",
-    "overview": "",
-    "investment_thesis": "",
-    "highlights": [],
+    "overview": "Factory Yards Ground Up is a new construction, 95-unit multifamily development located within the broader Factory Yards redevelopment in Grand Rapids. The project will include approximately 2,500 square feet of ground-floor commercial space and represents the final phase of the Factory Yards campus. The development builds upon the momentum created by earlier phases of the project while leveraging the surrounding infrastructure and neighborhood investment that has emerged as the district continues to evolve.",
+    "investment_thesis": "The project meets continued market demand for housing in the Grand Rapids market while capitalizing on the momentum created by earlier phases of the Factory Yards development. Efficiently designed studio and one-bedroom apartments are intended to serve young professionals and empty nesters seeking attainable housing options within an emerging mixed-use urban district.",
+    "highlights": [
+      "95-unit ground-up multifamily development",
+      "Approximately 2,500 square feet of ground-floor commercial space",
+      "Final phase of the Factory Yards redevelopment",
+      "Efficiently designed studio and one-bedroom apartment layouts",
+      "Located within a growing mixed-use district in Grand Rapids",
+      "Benefits from Transformational Brownfield Project (TBP) award"
+    ],
     "square_feet": "84,000 sqft",
     "units": "95",
     "year": "2028",
@@ -23,9 +30,16 @@
     "location": "Detroit, MI",
     "status": "Planning",
     "project_type": "Multifamily",
-    "overview": "",
-    "investment_thesis": "",
-    "highlights": [],
+    "overview": "Edmund Place is a 16-unit residential condominium development located in Detroit’s thriving Brush Park neighborhood. The project features thoughtfully designed residences with private rooftop terraces and garage parking, offering modern urban living within one of the city’s most vibrant districts. Located just steps from Detroit’s stadium, theatre, and entertainment corridor, the development provides residents with immediate access to the cultural and economic activity of downtown Detroit.",
+    "investment_thesis": "Positioned in a prime infill location between downtown and Midtown Detroit, Edmund Place delivers high-quality residential product at a competitive price point. The project benefits from Brownfield tax recapture incentives as well as a Neighborhood Enterprise Zone (NEZ) tax abatement for purchasers, enhancing affordability while supporting continued investment in the surrounding neighborhood.",
+    "highlights": [
+      "Prime Brush Park location near downtown and Midtown Detroit",
+      "16 for-sale condominium residences",
+      "Private rooftop terraces for each residence",
+      "Attached garage parking",
+      "Brownfield tax recapture incentives",
+      "Neighborhood Enterprise Zone (NEZ) tax abatement for purchasers"
+    ],
     "square_feet": "20,661 sqft",
     "units": "16 units",
     "year": "2027",
@@ -49,7 +63,7 @@
   },
   {
     "id": 3,
-    "name": "Factory Yards - North Commercial",
+    "name": "Grand Rapids - Build-to-Suit",
     "slug": "FYNC",
     "location": "Grand Rapids, MI",
     "status": "Under Construction",
@@ -146,14 +160,14 @@
     "location": "Detroit, MI",
     "status": "Stabilized",
     "project_type": "Multifamily",
-    "overview": "Value-add multifamily repositioning project focused on operational excellence.",
-    "investment_thesis": "Detroit's multifamily market presents compelling value-add opportunities as the city's revitalization continues.",
+    "overview": "Originally constructed as a historic apartment building in Detroit’s Brush Park neighborhood, The Amo reflects the architectural character and residential legacy of one of the city’s most storied districts. Heritage Development Partners is repositioning the property through thoughtful renovations and professional management while preserving the building’s historic character. The project focuses on improving housing quality, modernizing operations, and creating a stable, long-term multifamily asset.",
+    "investment_thesis": "Detroit’s continued revitalization has created compelling opportunities to acquire existing multifamily assets at attractive basis levels. The project benefits from a 17-year Neighborhood Enterprise Zone (NEZ) property tax abatement, which enhances long-term cash flow and supports additional reinvestment into the property. By combining thoughtful renovations with disciplined operational improvements, the strategy aims to capture rental upside while delivering strong risk-adjusted returns.",
     "highlights": [
-      "Value-add acquisition with below-market rents",
-      "Comprehensive renovation program",
-      "Operational improvements driving NOI growth",
-      "Strong submarket with limited new supply",
-      "Proximity to major employers and amenities"
+      "67-unit multifamily acquisition in a growing Detroit neighborhood",
+      "Interior unit upgrades and targeted common area improvements",
+      "Professional property management and operational enhancements",
+      "Strategy focused on stabilization and durable NOI growth",
+      "Proximity to major employment centers, transit, and neighborhood amenities"
     ],
     "square_feet": "68,500 sqft",
     "units": "67 units",
@@ -186,8 +200,20 @@
     "units": "23 units",
     "year": "2022",
     "featured": true,
-    "image_url": "",
-    "gallery_images": []
+    "image_url": "/website-assets/Project Images/Avery/1.jpg",
+    "gallery_images": [
+      "/website-assets/Project Images/Avery/1.jpg",
+      "/website-assets/Project Images/Avery/2.jpg",
+      "/website-assets/Project Images/Avery/3.jpg",
+      "/website-assets/Project Images/Avery/4.jpg",
+      "/website-assets/Project Images/Avery/5.jpg",
+      "/website-assets/Project Images/Avery/6.jpg",
+      "/website-assets/Project Images/Avery/7.jpg",
+      "/website-assets/Project Images/Avery/8.jpg",
+      "/website-assets/Project Images/Avery/9.jpg",
+      "/website-assets/Project Images/Avery/10.jpg",
+      "/website-assets/Project Images/Avery/11.jpg"
+    ]
   },
   {
     "id": 8,
@@ -236,8 +262,14 @@
     "units": "26 units",
     "year": "2021",
     "featured": false,
-    "image_url": "",
-    "gallery_images": []
+    "image_url": "/website-assets/Project Images/Kirkwood/Kw1.jpg",
+    "gallery_images": [
+      "/website-assets/Project Images/Kirkwood/Kw1.jpg",
+      "/website-assets/Project Images/Kirkwood/kw2.jpg",
+      "/website-assets/Project Images/Kirkwood/kw3.jpg",
+      "/website-assets/Project Images/Kirkwood/kw4.jpg",
+      "/website-assets/Project Images/Kirkwood/kw5.jpg"
+    ]
   },
   {
     "id": 10,
@@ -378,9 +410,9 @@
     "units": "18 Units",
     "year": "2017",
     "featured": true,
-    "image_url": "/website-assets/Project Images/Gibson/Gib1.jpg",
+    "image_url": "/website-assets/Project Images/Gibson/Gib1.png",
     "gallery_images": [
-      "/website-assets/Project Images/Gibson/Gib1.jpg",
+      "/website-assets/Project Images/Gibson/Gib1.png",
       "/website-assets/Project Images/Gibson/Gib2.jpg",
       "/website-assets/Project Images/Gibson/Gib3.jpg",
       "/website-assets/Project Images/Gibson/Gib4.jpg",

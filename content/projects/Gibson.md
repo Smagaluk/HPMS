@@ -8,9 +8,9 @@ featured: true
 square_feet: '16,000 sqft'
 units: '18 Units'
 year: '2017'
-image_url: '/website-assets/Project Images/Gibson/Gib1.jpg'
+image_url: '/website-assets/Project Images/Gibson/Gib1.png'
 gallery_images:
-  - '/website-assets/Project Images/Gibson/Gib1.jpg'
+  - '/website-assets/Project Images/Gibson/Gib1.png'
   - '/website-assets/Project Images/Gibson/Gib2.jpg'
   - '/website-assets/Project Images/Gibson/Gib3.jpg'
   - '/website-assets/Project Images/Gibson/Gib4.jpg'

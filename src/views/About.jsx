@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 import Link from 'next/link';
 import Image from 'next/image';
 import { createPageUrl } from '@/utils';
-import { ArrowRight, Shield, Target, Users, Award } from 'lucide-react';
+import { ArrowRight, Shield, Target, Users, Lightbulb } from 'lucide-react';
 import SectionHeading from '@/components/ui/SectionHeading';
 
 const values = [
@@ -25,9 +25,9 @@ const values = [
     description: 'We maintain the highest standards in execution, communication, and stakeholder management.',
   },
   {
-    icon: Award,
-    title: 'Quality',
-    description: 'Excellence in design, construction, and operations creates lasting value for communities and investors.',
+    icon: Lightbulb,
+    title: 'Entrepreneurship',
+    description: 'We approach every project with initiative and ownership. This mindset transforms challenges into opportunities into lasting value for communities and investors.',
   },
 ];
 
