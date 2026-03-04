@@ -53,7 +53,7 @@ export default function Footer() {
             </h4>
             <div className="space-y-3 text-sm text-[#F3F2ED]/70">
               <p>info@hrtgdev.com</p>
-              <p>Michigan</p>
+              <p>Birmingham, Michigan</p>
             </div>
           </div>
         </div>

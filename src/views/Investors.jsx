@@ -12,17 +12,17 @@ const principles = [
   {
     icon: TrendingUp,
     title: 'Risk-Adjusted Returns',
-    description: 'We pursue attractive risk-adjusted returns through disciplined underwriting, not by taking outsized risks. Our focus on quality execution and capital preservation underpins everything we do.'
+    description: 'We pursue attractive risk-adjusted returns through disciplined underwriting and vigorous execution, not by taking outsized risks. Our focus on quality execution and capital preservation underpins everything we do.'
   },
   {
     icon: Clock,
     title: 'Long-Term Orientation',
-    description: 'We align with capital partners who share our patient, long-term approach. We believe the best returns come from owning quality assets for extended periods.'
+    description: 'We align with capital partners who share our patient, long-term approach. We believe the best returns come from owning quality assets for extended periods.  At the same time, we remain disciplined and pragmatic—when market conditions or asset-specific opportunities create compelling value in a shorter timeframe, we are prepared to act decisively in the best interest of our investors.'
   },
   {
     icon: Shield,
     title: 'Transparency',
-    description: 'We provide institutional-quality reporting and maintain open communication with our investors. We believe trust is built through transparency.'
+    description: 'We provide institutional-quality reporting and maintain clear, consistent communication with our investors. Our philosophy is straightforward: strong partnerships are built on transparency, accountability, and alignment of interests.'
   },
   {
     icon: Users,
@@ -35,17 +35,23 @@ const partnerTypes = [
   {
     title: 'Family Offices',
     description: 'We partner with family offices seeking direct real estate exposure with an experienced operating partner. Our flexible structures accommodate various investment preferences and hold periods.',
-    features: ['Direct co-investment opportunities', 'Customized reporting', 'Flexible investment structures']
+    features: [
+      'Direct co-investment opportunities',
+      {
+        title: 'Select joint venture structures tailored to investor preferences',
+        subItems: ['Flexible investment horizons and liquidity considerations', 'Customized reporting and investor communication']
+      }
+    ]
   },
   {
     title: 'Institutional Investors',
-    description: 'We work with institutions seeking exposure to Michigan\'s growing markets through an established local platform with deep market knowledge and execution capability.',
+    description: 'We work with institutions seeking exposure to strategic and growing markets through an established platform with deep market knowledge and execution capability.',
     features: ['Institutional governance standards', 'Audited financials', 'Professional asset management']
   },
   {
     title: 'Municipalities & Institutions',
-    description: 'We collaborate with public entities and institutions to structure developments that serve community needs while generating appropriate returns for all stakeholders.',
-    features: ['Public-private partnership experience', 'Community stakeholder alignment', 'Complex incentive structuring']
+    description: 'We collaborate with public entities and institutions to structure developments that address community priorities while delivering appropriate risk-adjusted returns for investors. Our experience navigating public processes and aligning diverse stakeholders allows us to advance complex projects from concept through execution.',
+    features: ['Structuring public-private partnerships', 'Aligning community and economic stakeholders', 'Navigating complex incentive and public financing structures']
   }
 ];
 
@@ -68,11 +74,7 @@ export default function Investors() {
                 Building lasting capital relationships.
               </h1>
               <p className="mt-6 text-lg text-[#474E5E] leading-relaxed">
-              We seek investors and partners who share our commitment to disciplined execution,
-transparent communication, and long-term value creation. Our platform offers direct
-access to carefully-vetted real estate investment Michigan real estate
-throughopportunities through an experienced operator with deep local expertise and a
-diligent, transparent approach.
+                We seek investors and partners who share our commitment to disciplined execution, transparent communication, and long-term value creation. Our platform offers direct access to carefully-vetted real estate investment opportunities through an experienced operator with deep expertise and a diligent, transparent approach.
               </p>
               <Link
                 href={createPageUrl('Contact')}
@@ -162,10 +164,27 @@ diligent, transparent approach.
                   <div className="lg:border-l lg:border-[#474E5E]/20 lg:pl-8">
                     <ul className="space-y-3">
                       {partner.features.map((feature, i) => (
-                        <li key={i} className="flex items-center gap-3 text-sm text-[#474E5E]">
-                          <div className="w-1.5 h-1.5 bg-[#1B2944] rounded-full" />
-                          {feature}
-                        </li>
+                        typeof feature === 'string' ? (
+                          <li key={i} className="flex items-center gap-3 text-sm text-[#474E5E]">
+                            <div className="w-1.5 h-1.5 bg-[#1B2944] rounded-full flex-shrink-0" />
+                            {feature}
+                          </li>
+                        ) : (
+                          <li key={i} className="space-y-2">
+                            <div className="flex items-center gap-3 text-sm text-[#474E5E]">
+                              <div className="w-1.5 h-1.5 bg-[#1B2944] rounded-full flex-shrink-0" />
+                              {feature.title}
+                            </div>
+                            <ul className="pl-5 space-y-1">
+                              {feature.subItems.map((sub, j) => (
+                                <li key={j} className="flex items-center gap-2 text-sm text-[#474E5E]">
+                                  <span className="text-[#1B2944]">•</span>
+                                  {sub}
+                                </li>
+                              ))}
+                            </ul>
+                          </li>
+                        )
                       ))}
                     </ul>
                   </div>
