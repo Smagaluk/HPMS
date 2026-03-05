@@ -10,6 +10,7 @@ const ROUTE_MAP = {
   Projects: "/projects",
   Capabilities: "/capabilities",
   Investors: "/investors",
+  InTheNews: "/news",
   ManageProjects: "/projects/manage",
 };
 
