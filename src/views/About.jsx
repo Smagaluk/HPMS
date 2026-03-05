@@ -63,7 +63,7 @@ export default function About() {
             >
               <div className="aspect-[4/3] bg-stone-200 overflow-hidden">
                 <Image
-                  src="/website-assets/Other Images/Home Page image.JPG"
+                  src="/website-assets/Other Images/About us Page.JPG"
                   alt="Heritage Development Partners office"
                   width={800}
                   height={600}
@@ -149,14 +149,22 @@ export default function About() {
               viewport={{ once: true, margin: "-100px" }}
               transition={{ duration: 0.6 }}
             >
-              <p className="text-xs font-semibold tracking-widest uppercase text-[#1B2944] mb-6">
-                Our Mission
+              <p className="text-xs font-semibold tracking-widest uppercase text-[#1B2944] mb-4">
+                Our Process
               </p>
-              <blockquote className="text-2xl lg:text-3xl font-medium leading-relaxed text-[#070707]">
-                "To create lasting value through disciplined real estate investment and 
-                development, building places that strengthen communities and deliver 
-                consistent returns for our partners."
-              </blockquote>
+              <h2 className="text-3xl lg:text-4xl font-medium tracking-tight text-[#070707] mb-8">
+                The way we work.
+              </h2>
+              <div className="aspect-[16/10.35] w-full max-w-4xl mx-auto overflow-hidden rounded-lg">
+                <iframe
+                  src="https://player.vimeo.com/video/917642924?badge=0&autopause=0&player_id=0&app_id=58479"
+                  frameBorder="0"
+                  allow="autoplay; fullscreen; picture-in-picture; clipboard-write"
+                  allowFullScreen
+                  title="2024 Factory Yards Project Overview"
+                  className="w-full h-full"
+                />
+              </div>
             </motion.div>
           </div>
         </div>

@@ -95,7 +95,7 @@ export default function InvestmentStrategy() {
             >
               <div className="aspect-[4/3] bg-stone-200 overflow-hidden">
                 <Image
-                  src="/website-assets/Other Images/Home Page image.JPG"
+                  src="/website-assets/Other Images/Investment Strategy.jpg"
                   alt="Commercial real estate development"
                   width={800}
                   height={600}
