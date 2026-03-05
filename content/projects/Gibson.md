@@ -8,13 +8,13 @@ featured: true
 square_feet: '16,000 sqft'
 units: '18 Units'
 year: '2017'
-image_url: '/website-assets/Project Images/Gibson/Gib1.png'
+image_url: 'https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/Gibson/Gib1.png'
 gallery_images:
-  - '/website-assets/Project Images/Gibson/Gib1.png'
-  - '/website-assets/Project Images/Gibson/Gib2.jpg'
-  - '/website-assets/Project Images/Gibson/Gib3.jpg'
-  - '/website-assets/Project Images/Gibson/Gib4.jpg'
-  - '/website-assets/Project Images/Gibson/Gib5.jpg'
+  - 'https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/Gibson/Gib1.png'
+  - 'https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/Gibson/Gib2.jpg'
+  - 'https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/Gibson/Gib3.jpg'
+  - 'https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/Gibson/Gib4.jpg'
+  - 'https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/Gibson/Gib5.jpg'
 overview: >-
   Gibson Terrace is located on a picturesque tree-lined street steps from
   Harvard Square. Nearly a century old, the property has housed generations

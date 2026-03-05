@@ -63,7 +63,7 @@ export default function About() {
             >
               <div className="aspect-[4/3] bg-stone-200 overflow-hidden">
                 <Image
-                  src="/website-assets/Other Images/About us Page.JPG"
+                  src="https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Other%20Images/About%20us%20Page.JPG"
                   alt="Heritage Development Partners office"
                   width={800}
                   height={600}

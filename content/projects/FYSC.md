@@ -8,11 +8,11 @@ featured: false
 square_feet: '67,000 sqft'
 units: ''
 year: '2026'
-image_url: '/website-assets/Project Images/FYSC/FYSC1.jpg'
+image_url: 'https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/FYSC/FYSC1.jpg'
 gallery_images:
-  - '/website-assets/Project Images/FYSC/FYSC1.jpg'
-  - '/website-assets/Project Images/FYSC/FYSC2.jpg'
-  - '/website-assets/Project Images/FYSC/FYSC3.jpg'
+  - 'https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/FYSC/FYSC1.jpg'
+  - 'https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/FYSC/FYSC2.jpg'
+  - 'https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/FYSC/FYSC3.jpg'
 overview: >-
   Factory Yards South Commercial reimagines a former 67,000-square-foot
   industrial building within the broader Factory Yards redevelopment,

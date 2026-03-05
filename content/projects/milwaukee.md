@@ -8,12 +8,12 @@ featured: true
 square_feet: '11,005 sqft'
 units: '8 units'
 year: '2018'
-image_url: '/website-assets/Project Images/Milwaukee/MJ1.jpg'
+image_url: 'https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/Milwaukee/MJ1.jpg'
 gallery_images:
-  - '/website-assets/Project Images/Milwaukee/MJ1.jpg'
-  - '/website-assets/Project Images/Milwaukee/MJ2.jpg'
-  - '/website-assets/Project Images/Milwaukee/MJ3.jpg'
-  - '/website-assets/Project Images/Milwaukee/MJ4.jpg'
+  - 'https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/Milwaukee/MJ1.jpg'
+  - 'https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/Milwaukee/MJ2.jpg'
+  - 'https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/Milwaukee/MJ3.jpg'
+  - 'https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/Milwaukee/MJ4.jpg'
 overview: >-
   The Milwaukee Condominiums project involved the redevelopment of a vacant,
   blighted, and functionally obsolete building located in Detroit's emerging

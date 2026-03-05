@@ -8,13 +8,13 @@ featured: false
 square_feet: '22,309 sqft'
 units: '26 units'
 year: '2021'
-image_url: '/website-assets/Project Images/Kirkwood/Kw1.jpg'
+image_url: 'https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/Kirkwood/Kw1.jpg'
 gallery_images:
-  - '/website-assets/Project Images/Kirkwood/Kw1.jpg'
-  - '/website-assets/Project Images/Kirkwood/kw2.jpg'
-  - '/website-assets/Project Images/Kirkwood/kw3.jpg'
-  - '/website-assets/Project Images/Kirkwood/kw4.jpg'
-  - '/website-assets/Project Images/Kirkwood/kw5.jpg'
+  - 'https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/Kirkwood/Kw1.jpg'
+  - 'https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/Kirkwood/kw2.jpg'
+  - 'https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/Kirkwood/kw3.jpg'
+  - 'https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/Kirkwood/kw4.jpg'
+  - 'https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/Kirkwood/kw5.jpg'
 overview: >-
   The Kirkwood is a 26 unit value-add property located in Detroit's New Center
   neighborhood, immediately north of Henry Ford Hospital's main campus. The

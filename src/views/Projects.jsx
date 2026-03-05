@@ -48,13 +48,13 @@ function AnimatedTotalSqFt({ total, durationMs = 1000 }) {
 }
 
 const defaultProjects = [
-  { id: 1, name: '19 Central', slug: '19central', location: 'Cambridge, MA', status: 'Completed', project_type: 'Multifamily', square_feet: '32,000 sqft', image_url: '/website-assets/Project Images/19 Central/19 Central_1.jpg' },
+  { id: 1, name: '19 Central', slug: '19central', location: 'Cambridge, MA', status: 'Completed', project_type: 'Multifamily', square_feet: '32,000 sqft', image_url: 'https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/19%20Central/19%20Central_1.jpg' },
   { id: 2, name: 'Factory Yards - Ground up', slug: 'FYGU', location: 'Grand Rapids, MI', status: 'Planning', project_type: 'Multifamily', square_feet: '84000', image_url: '' },
-  { id: 3, name: 'Factory Yards - North Commercial', slug: 'FYNC', location: 'Grand Rapids, MI', status: 'Under Construction', project_type: 'Commercial', square_feet: '22,400 sqft', image_url: '/website-assets/Project Images/FYNC/FYNC_3.png' },
-  { id: 4, name: 'Factory Yards - South Commercial', slug: 'FYSC', location: 'Grand Rapids, MI', status: 'Planning', project_type: 'Commercial', square_feet: '67,000 sqft', image_url: '/website-assets/Project Images/FYSC/FYSC1.jpg' },
-  { id: 5, name: '38 Gibson', slug: 'Gibson', location: 'Cambridge, MA', status: 'Completed', project_type: 'Multifamily', square_feet: '', image_url: '/website-assets/Project Images/Gibson/Gib1.png' },
-  { id: 6, name: 'Factory Yards - Mixed Use', slug: 'factory-yards', location: 'Grand Rapids, MI', status: 'In Development', project_type: 'Mixed-Use', square_feet: '450,000 SF', image_url: '/website-assets/Project Images/FYMU/FYMU1.jpg' },
-  { id: 7, name: 'The Amo', slug: 'the-amo', location: 'Detroit, MI', status: 'Stabilized', project_type: 'Multifamily', square_feet: '125,000 SF', image_url: '/website-assets/Project Images/The Amo/Amo1.JPG' },
+  { id: 3, name: 'Factory Yards - North Commercial', slug: 'FYNC', location: 'Grand Rapids, MI', status: 'Under Construction', project_type: 'Commercial', square_feet: '22,400 sqft', image_url: 'https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/FYNC/FYNC_3.png' },
+  { id: 4, name: 'Factory Yards - South Commercial', slug: 'FYSC', location: 'Grand Rapids, MI', status: 'Planning', project_type: 'Commercial', square_feet: '67,000 sqft', image_url: 'https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/FYSC/FYSC1.jpg' },
+  { id: 5, name: '38 Gibson', slug: 'Gibson', location: 'Cambridge, MA', status: 'Completed', project_type: 'Multifamily', square_feet: '', image_url: 'https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/Gibson/Gib1.png' },
+  { id: 6, name: 'Factory Yards - Mixed Use', slug: 'factory-yards', location: 'Grand Rapids, MI', status: 'In Development', project_type: 'Mixed-Use', square_feet: '450,000 SF', image_url: 'https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/FYMU/FYMU1.jpg' },
+  { id: 7, name: 'The Amo', slug: 'the-amo', location: 'Detroit, MI', status: 'Stabilized', project_type: 'Multifamily', square_feet: '125,000 SF', image_url: 'https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/The%20Amo/Amo1.JPG' },
 ];
 
 const statusFilters = ['All', 'Planning', 'In Development', 'Under Construction', 'Stabilized', 'Completed'];
@@ -177,7 +177,7 @@ export default function Projects() {
                 >
                   <div className="aspect-[16/10] bg-[#F3F2ED] overflow-hidden mb-6">
                     <Image
-                      src={project.image_url || '/website-assets/Project Images/FYMU/FYMU1.jpg'}
+                      src={project.image_url || 'https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/FYMU/FYMU1.jpg'}
                       alt={project.name}
                       width={800}
                       height={600}

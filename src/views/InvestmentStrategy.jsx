@@ -95,7 +95,7 @@ export default function InvestmentStrategy() {
             >
               <div className="aspect-[4/3] bg-stone-200 overflow-hidden">
                 <Image
-                  src="/website-assets/Other Images/Investment Strategy.jpg"
+                  src="https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Other%20Images/Investment%20Strategy.jpg"
                   alt="Commercial real estate development"
                   width={800}
                   height={600}

@@ -8,14 +8,14 @@ featured: false
 square_feet: '15,008 sqft'
 units: '20 units'
 year: '2021'
-image_url: '/website-assets/Project Images/Eastpointe/EP1.jpg'
+image_url: 'https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/Eastpointe/EP1.jpg'
 gallery_images:
-  - '/website-assets/Project Images/Eastpointe/EP1.jpg'
-  - '/website-assets/Project Images/Eastpointe/EP2.jpg'
-  - '/website-assets/Project Images/Eastpointe/EP3.jpg'
-  - '/website-assets/Project Images/Eastpointe/EP4.jpg'
-  - '/website-assets/Project Images/Eastpointe/EP5.jpg'
-  - '/website-assets/Project Images/Eastpointe/EP6.jpg'
+  - 'https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/Eastpointe/EP1.jpg'
+  - 'https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/Eastpointe/EP2.jpg'
+  - 'https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/Eastpointe/EP3.jpg'
+  - 'https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/Eastpointe/EP4.jpg'
+  - 'https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/Eastpointe/EP5.jpg'
+  - 'https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/Eastpointe/EP6.jpg'
 overview: >-
   Acquired as a 55+ apartment community, the Eastpointe Apartments presented
   an opportunity to acquire a well-maintained asset with long-term residents

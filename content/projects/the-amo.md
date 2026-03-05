@@ -8,13 +8,13 @@ featured: true
 square_feet: '68,500 sqft'
 units: '67 units'
 year: '2025'
-image_url: '/website-assets/Project Images/The Amo/Amo1.JPG'
+image_url: 'https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/The%20Amo/Amo1.JPG'
 gallery_images:
-  - '/website-assets/Project Images/The Amo/Amo1.JPG'
-  - '/website-assets/Project Images/The Amo/amo2.JPG'
-  - '/website-assets/Project Images/The Amo/amo3.JPG'
-  - '/website-assets/Project Images/The Amo/amo4.JPG'
-  - '/website-assets/Project Images/The Amo/amo5.JPG'
+  - 'https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/The%20Amo/Amo1.JPG'
+  - 'https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/The%20Amo/amo2.JPG'
+  - 'https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/The%20Amo/amo3.JPG'
+  - 'https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/The%20Amo/amo4.JPG'
+  - 'https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/The%20Amo/amo5.JPG'
 overview: >-
   Originally constructed as a historic apartment building in Detroit’s
   Brush Park neighborhood, The Amo reflects the architectural character

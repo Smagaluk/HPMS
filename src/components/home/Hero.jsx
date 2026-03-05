@@ -88,7 +88,7 @@ export default function Hero() {
           >
             <div className="aspect-[4/5] bg-stone-200 overflow-hidden">
               <Image
-                src="/website-assets/Other Images/Home Page image.JPG"
+                src="https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Other%20Images/Home%20Page%20image.JPG"
                 alt="Historic brick factory adaptive reuse building"
                 width={800}
                 height={600}

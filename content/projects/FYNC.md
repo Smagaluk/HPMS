@@ -8,14 +8,14 @@ featured: true
 square_feet: '22,400 sqft'
 units: ''
 year: '2026'
-image_url: '/website-assets/Project Images/FYNC/FYNC_1.png'
+image_url: 'https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/FYNC/FYNC_1.png'
 gallery_images:
-  - '/website-assets/Project Images/FYNC/FYNC_1.png'
-  - '/website-assets/Project Images/FYNC/FYNC_2.png'
-  - '/website-assets/Project Images/FYNC/FYNC_3.png'
-  - '/website-assets/Project Images/FYNC/FYNC_4.png'
-  - '/website-assets/Project Images/FYNC/FYNC_5.png'
-  - '/website-assets/Project Images/FYNC/FYNC_6.png'
+  - 'https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/FYNC/FYNC_1.png'
+  - 'https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/FYNC/FYNC_2.png'
+  - 'https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/FYNC/FYNC_3.png'
+  - 'https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/FYNC/FYNC_4.png'
+  - 'https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/FYNC/FYNC_5.png'
+  - 'https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/FYNC/FYNC_6.png'
 overview: >-
   Factory Yards North Commercial is a purpose-built commercial component
   within the broader Factory Yards redevelopment in Grand Rapids.

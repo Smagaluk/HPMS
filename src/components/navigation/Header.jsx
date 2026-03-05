@@ -48,7 +48,7 @@ export default function Header() {
           {/* Logo */}
           <Link href={createPageUrl('Home')} className="flex items-center">
             <Image
-              src="/website-assets/Logos/Blue_Horizontal-removebg-preview.png"
+              src="https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Logos/Blue_Horizontal-removebg-preview.png"
               alt="Heritage Development Partners"
               width={200}
               height={48}

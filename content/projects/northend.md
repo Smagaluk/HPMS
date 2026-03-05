@@ -8,15 +8,15 @@ featured: false
 square_feet: '9,000 sqft'
 units: '9 units'
 year: '2017'
-image_url: '/website-assets/Project Images/Northend Portfolio/CH1.jpg'
+image_url: 'https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/Northend%20Portfolio/CH1.jpg'
 gallery_images:
-  - '/website-assets/Project Images/Northend Portfolio/CH1.jpg'
-  - '/website-assets/Project Images/Northend Portfolio/CH2.1.jpg'
-  - '/website-assets/Project Images/Northend Portfolio/CH2.jpg'
-  - '/website-assets/Project Images/Northend Portfolio/CH3.jpg'
-  - '/website-assets/Project Images/Northend Portfolio/CH4.jpg'
-  - '/website-assets/Project Images/Northend Portfolio/CH5.jpg'
-  - '/website-assets/Project Images/Northend Portfolio/CH6.jpg'
+  - 'https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/Northend%20Portfolio/CH1.jpg'
+  - 'https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/Northend%20Portfolio/CH2.1.jpg'
+  - 'https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/Northend%20Portfolio/CH2.jpg'
+  - 'https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/Northend%20Portfolio/CH3.jpg'
+  - 'https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/Northend%20Portfolio/CH4.jpg'
+  - 'https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/Northend%20Portfolio/CH5.jpg'
+  - 'https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/Northend%20Portfolio/CH6.jpg'
 overview: >-
   Purchase from the City of Detroit Land Bank Authority (DLBA), the assets in
   this portfolio represented an opportunity to acquire a small multifamily

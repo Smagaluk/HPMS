@@ -8,11 +8,11 @@ featured: true
 square_feet: '32,000 sqft'
 units: '30 units'
 year: '2019'
-image_url: '/website-assets/Project Images/19 Central/19 Central_1.jpg'
+image_url: 'https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/19%20Central/19%20Central_1.jpg'
 gallery_images:
-  - '/website-assets/Project Images/19 Central/19 Central_1.jpg'
-  - '/website-assets/Project Images/19 Central/19 Central_2.jpg'
-  - '/website-assets/Project Images/19 Central/19 Central_3.jpg'
+  - 'https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/19%20Central/19%20Central_1.jpg'
+  - 'https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/19%20Central/19%20Central_2.jpg'
+  - 'https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/19%20Central/19%20Central_3.jpg'
 overview: >-
   19 Central is strategically positioned between Porter Square and Union
   Square in the Somerville/Cambridge submarket. Prior ownership had held

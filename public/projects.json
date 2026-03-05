@@ -19,17 +19,17 @@
     "units": "280 residential units",
     "year": "2026",
     "featured": true,
-    "image_url": "/website-assets/Project Images/FYMU/FYMU1.jpg",
+    "image_url": "https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/FYMU/FYMU1.jpg",
     "gallery_images": [
-      "/website-assets/Project Images/FYMU/FYMU1.jpg",
-      "/website-assets/Project Images/FYMU/FYMU2.jpg",
-      "/website-assets/Project Images/FYMU/FYMU3.jpg",
-      "/website-assets/Project Images/FYMU/FYMU4.jpg",
-      "/website-assets/Project Images/FYMU/FYMU5.jpg",
-      "/website-assets/Project Images/FYMU/FYMU6.jpg",
-      "/website-assets/Project Images/FYMU/FYMU7.jpg",
-      "/website-assets/Project Images/FYMU/FYMU8.jpg",
-      "/website-assets/Project Images/FYMU/FYMU9.jpg"
+      "https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/FYMU/FYMU1.jpg",
+      "https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/FYMU/FYMU2.jpg",
+      "https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/FYMU/FYMU3.jpg",
+      "https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/FYMU/FYMU4.jpg",
+      "https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/FYMU/FYMU5.jpg",
+      "https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/FYMU/FYMU6.jpg",
+      "https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/FYMU/FYMU7.jpg",
+      "https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/FYMU/FYMU8.jpg",
+      "https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/FYMU/FYMU9.jpg"
     ]
   },
   {
@@ -52,13 +52,13 @@
     "units": "67 units",
     "year": "2025",
     "featured": true,
-    "image_url": "/website-assets/Project Images/The Amo/Amo1.JPG",
+    "image_url": "https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/The%20Amo/Amo1.JPG",
     "gallery_images": [
-      "/website-assets/Project Images/The Amo/Amo1.JPG",
-      "/website-assets/Project Images/The Amo/amo2.JPG",
-      "/website-assets/Project Images/The Amo/amo3.JPG",
-      "/website-assets/Project Images/The Amo/amo4.JPG",
-      "/website-assets/Project Images/The Amo/amo5.JPG"
+      "https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/The%20Amo/Amo1.JPG",
+      "https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/The%20Amo/amo2.JPG",
+      "https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/The%20Amo/amo3.JPG",
+      "https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/The%20Amo/amo4.JPG",
+      "https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/The%20Amo/amo5.JPG"
     ]
   },
   {
@@ -82,14 +82,14 @@
     "units": "",
     "year": "2026",
     "featured": true,
-    "image_url": "/website-assets/Project Images/FYNC/FYNC_1.png",
+    "image_url": "https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/FYNC/FYNC_1.png",
     "gallery_images": [
-      "/website-assets/Project Images/FYNC/FYNC_1.png",
-      "/website-assets/Project Images/FYNC/FYNC_2.png",
-      "/website-assets/Project Images/FYNC/FYNC_3.png",
-      "/website-assets/Project Images/FYNC/FYNC_4.png",
-      "/website-assets/Project Images/FYNC/FYNC_5.png",
-      "/website-assets/Project Images/FYNC/FYNC_6.png"
+      "https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/FYNC/FYNC_1.png",
+      "https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/FYNC/FYNC_2.png",
+      "https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/FYNC/FYNC_3.png",
+      "https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/FYNC/FYNC_4.png",
+      "https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/FYNC/FYNC_5.png",
+      "https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/FYNC/FYNC_6.png"
     ]
   },
   {
@@ -110,19 +110,19 @@
     "units": "23 units",
     "year": "2022",
     "featured": true,
-    "image_url": "/website-assets/Project Images/Avery/1.jpg",
+    "image_url": "https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/Avery/1.jpg",
     "gallery_images": [
-      "/website-assets/Project Images/Avery/1.jpg",
-      "/website-assets/Project Images/Avery/2.jpg",
-      "/website-assets/Project Images/Avery/3.jpg",
-      "/website-assets/Project Images/Avery/4.jpg",
-      "/website-assets/Project Images/Avery/5.jpg",
-      "/website-assets/Project Images/Avery/6.jpg",
-      "/website-assets/Project Images/Avery/7.jpg",
-      "/website-assets/Project Images/Avery/8.jpg",
-      "/website-assets/Project Images/Avery/9.jpg",
-      "/website-assets/Project Images/Avery/10.jpg",
-      "/website-assets/Project Images/Avery/11.jpg"
+      "https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/Avery/1.jpg",
+      "https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/Avery/2.jpg",
+      "https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/Avery/3.jpg",
+      "https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/Avery/4.jpg",
+      "https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/Avery/5.jpg",
+      "https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/Avery/6.jpg",
+      "https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/Avery/7.jpg",
+      "https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/Avery/8.jpg",
+      "https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/Avery/9.jpg",
+      "https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/Avery/10.jpg",
+      "https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/Avery/11.jpg"
     ]
   },
   {
@@ -146,11 +146,11 @@
     "units": "",
     "year": "2026",
     "featured": false,
-    "image_url": "/website-assets/Project Images/FYSC/FYSC1.jpg",
+    "image_url": "https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/FYSC/FYSC1.jpg",
     "gallery_images": [
-      "/website-assets/Project Images/FYSC/FYSC1.jpg",
-      "/website-assets/Project Images/FYSC/FYSC2.jpg",
-      "/website-assets/Project Images/FYSC/FYSC3.jpg"
+      "https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/FYSC/FYSC1.jpg",
+      "https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/FYSC/FYSC2.jpg",
+      "https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/FYSC/FYSC3.jpg"
     ]
   },
   {
@@ -172,13 +172,13 @@
     "units": "26 units",
     "year": "2021",
     "featured": false,
-    "image_url": "/website-assets/Project Images/Kirkwood/Kw1.jpg",
+    "image_url": "https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/Kirkwood/Kw1.jpg",
     "gallery_images": [
-      "/website-assets/Project Images/Kirkwood/Kw1.jpg",
-      "/website-assets/Project Images/Kirkwood/kw2.jpg",
-      "/website-assets/Project Images/Kirkwood/kw3.jpg",
-      "/website-assets/Project Images/Kirkwood/kw4.jpg",
-      "/website-assets/Project Images/Kirkwood/kw5.jpg"
+      "https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/Kirkwood/Kw1.jpg",
+      "https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/Kirkwood/kw2.jpg",
+      "https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/Kirkwood/kw3.jpg",
+      "https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/Kirkwood/kw4.jpg",
+      "https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/Kirkwood/kw5.jpg"
     ]
   },
   {
@@ -226,21 +226,21 @@
     "units": "16 units",
     "year": "2027",
     "featured": false,
-    "image_url": "/website-assets/Project Images/Edmund/EP1.jpg",
+    "image_url": "https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/Edmund/EP1.jpg",
     "gallery_images": [
-      "/website-assets/Project Images/Edmund/EP1.jpg",
-      "/website-assets/Project Images/Edmund/EP10.jpg",
-      "/website-assets/Project Images/Edmund/EP11.jpg",
-      "/website-assets/Project Images/Edmund/EP12.jpg",
-      "/website-assets/Project Images/Edmund/EP13.jpg",
-      "/website-assets/Project Images/Edmund/EP15.jpg",
-      "/website-assets/Project Images/Edmund/EP2.jpg",
-      "/website-assets/Project Images/Edmund/EP3.jpg",
-      "/website-assets/Project Images/Edmund/EP4.jpg",
-      "/website-assets/Project Images/Edmund/EP5.jpg",
-      "/website-assets/Project Images/Edmund/EP6.jpg",
-      "/website-assets/Project Images/Edmund/EP7.jpg",
-      "/website-assets/Project Images/Edmund/EP9.jpg"
+      "https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/Edmund/EP1.jpg",
+      "https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/Edmund/EP10.jpg",
+      "https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/Edmund/EP11.jpg",
+      "https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/Edmund/EP12.jpg",
+      "https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/Edmund/EP13.jpg",
+      "https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/Edmund/EP15.jpg",
+      "https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/Edmund/EP2.jpg",
+      "https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/Edmund/EP3.jpg",
+      "https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/Edmund/EP4.jpg",
+      "https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/Edmund/EP5.jpg",
+      "https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/Edmund/EP6.jpg",
+      "https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/Edmund/EP7.jpg",
+      "https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/Edmund/EP9.jpg"
     ]
   },
   {
@@ -261,12 +261,12 @@
     "units": "8 units",
     "year": "2018",
     "featured": true,
-    "image_url": "/website-assets/Project Images/Milwaukee/MJ1.jpg",
+    "image_url": "https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/Milwaukee/MJ1.jpg",
     "gallery_images": [
-      "/website-assets/Project Images/Milwaukee/MJ1.jpg",
-      "/website-assets/Project Images/Milwaukee/MJ2.jpg",
-      "/website-assets/Project Images/Milwaukee/MJ3.jpg",
-      "/website-assets/Project Images/Milwaukee/MJ4.jpg"
+      "https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/Milwaukee/MJ1.jpg",
+      "https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/Milwaukee/MJ2.jpg",
+      "https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/Milwaukee/MJ3.jpg",
+      "https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/Milwaukee/MJ4.jpg"
     ]
   },
   {
@@ -289,13 +289,13 @@
     "units": "18 Units",
     "year": "2017",
     "featured": true,
-    "image_url": "/website-assets/Project Images/Gibson/Gib1.png",
+    "image_url": "https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/Gibson/Gib1.png",
     "gallery_images": [
-      "/website-assets/Project Images/Gibson/Gib1.png",
-      "/website-assets/Project Images/Gibson/Gib2.jpg",
-      "/website-assets/Project Images/Gibson/Gib3.jpg",
-      "/website-assets/Project Images/Gibson/Gib4.jpg",
-      "/website-assets/Project Images/Gibson/Gib5.jpg"
+      "https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/Gibson/Gib1.png",
+      "https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/Gibson/Gib2.jpg",
+      "https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/Gibson/Gib3.jpg",
+      "https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/Gibson/Gib4.jpg",
+      "https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/Gibson/Gib5.jpg"
     ]
   },
   {
@@ -318,11 +318,11 @@
     "units": "30 units",
     "year": "2019",
     "featured": true,
-    "image_url": "/website-assets/Project Images/19 Central/19 Central_1.jpg",
+    "image_url": "https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/19%20Central/19%20Central_1.jpg",
     "gallery_images": [
-      "/website-assets/Project Images/19 Central/19 Central_1.jpg",
-      "/website-assets/Project Images/19 Central/19 Central_2.jpg",
-      "/website-assets/Project Images/19 Central/19 Central_3.jpg"
+      "https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/19%20Central/19%20Central_1.jpg",
+      "https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/19%20Central/19%20Central_2.jpg",
+      "https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/19%20Central/19%20Central_3.jpg"
     ]
   },
   {
@@ -343,20 +343,20 @@
     "units": "21 units",
     "year": "2018",
     "featured": false,
-    "image_url": "/website-assets/Project Images/Gateways of Plymouth/1.jpeg",
+    "image_url": "https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/Gateways%20of%20Plymouth/1.jpeg",
     "gallery_images": [
-      "/website-assets/Project Images/Gateways of Plymouth/1.jpeg",
-      "/website-assets/Project Images/Gateways of Plymouth/2000 (1).jpeg",
-      "/website-assets/Project Images/Gateways of Plymouth/2000 (10).jpeg",
-      "/website-assets/Project Images/Gateways of Plymouth/2000 (11).jpeg",
-      "/website-assets/Project Images/Gateways of Plymouth/2000 (2).jpeg",
-      "/website-assets/Project Images/Gateways of Plymouth/2000 (3).jpeg",
-      "/website-assets/Project Images/Gateways of Plymouth/2000 (4).jpeg",
-      "/website-assets/Project Images/Gateways of Plymouth/2000 (5).jpeg",
-      "/website-assets/Project Images/Gateways of Plymouth/2000 (6).jpeg",
-      "/website-assets/Project Images/Gateways of Plymouth/2000 (7).jpeg",
-      "/website-assets/Project Images/Gateways of Plymouth/2000 (8).jpeg",
-      "/website-assets/Project Images/Gateways of Plymouth/2000 (9).jpeg"
+      "https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/Gateways%20of%20Plymouth/1.jpeg",
+      "https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/Gateways%20of%20Plymouth/2000%20%281%29.jpeg",
+      "https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/Gateways%20of%20Plymouth/2000%20%2810%29.jpeg",
+      "https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/Gateways%20of%20Plymouth/2000%20%2811%29.jpeg",
+      "https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/Gateways%20of%20Plymouth/2000%20%282%29.jpeg",
+      "https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/Gateways%20of%20Plymouth/2000%20%283%29.jpeg",
+      "https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/Gateways%20of%20Plymouth/2000%20%284%29.jpeg",
+      "https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/Gateways%20of%20Plymouth/2000%20%285%29.jpeg",
+      "https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/Gateways%20of%20Plymouth/2000%20%286%29.jpeg",
+      "https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/Gateways%20of%20Plymouth/2000%20%287%29.jpeg",
+      "https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/Gateways%20of%20Plymouth/2000%20%288%29.jpeg",
+      "https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/Gateways%20of%20Plymouth/2000%20%289%29.jpeg"
     ]
   },
   {
@@ -377,14 +377,14 @@
     "units": "20 units",
     "year": "2021",
     "featured": false,
-    "image_url": "/website-assets/Project Images/Eastpointe/EP1.jpg",
+    "image_url": "https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/Eastpointe/EP1.jpg",
     "gallery_images": [
-      "/website-assets/Project Images/Eastpointe/EP1.jpg",
-      "/website-assets/Project Images/Eastpointe/EP2.jpg",
-      "/website-assets/Project Images/Eastpointe/EP3.jpg",
-      "/website-assets/Project Images/Eastpointe/EP4.jpg",
-      "/website-assets/Project Images/Eastpointe/EP5.jpg",
-      "/website-assets/Project Images/Eastpointe/EP6.jpg"
+      "https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/Eastpointe/EP1.jpg",
+      "https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/Eastpointe/EP2.jpg",
+      "https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/Eastpointe/EP3.jpg",
+      "https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/Eastpointe/EP4.jpg",
+      "https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/Eastpointe/EP5.jpg",
+      "https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/Eastpointe/EP6.jpg"
     ]
   },
   {
@@ -405,18 +405,18 @@
     "units": "40 units",
     "year": "2020",
     "featured": false,
-    "image_url": "/website-assets/Project Images/Garden City/GC1.jpg",
+    "image_url": "https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/Garden%20City/GC1.jpg",
     "gallery_images": [
-      "/website-assets/Project Images/Garden City/GC1.jpg",
-      "/website-assets/Project Images/Garden City/GC10.jpg",
-      "/website-assets/Project Images/Garden City/GC2.jpg",
-      "/website-assets/Project Images/Garden City/GC3.jpg",
-      "/website-assets/Project Images/Garden City/GC4.jpg",
-      "/website-assets/Project Images/Garden City/GC5.jpg",
-      "/website-assets/Project Images/Garden City/GC6.jpg",
-      "/website-assets/Project Images/Garden City/GC7.jpg",
-      "/website-assets/Project Images/Garden City/GC8.jpg",
-      "/website-assets/Project Images/Garden City/GC9.jpg"
+      "https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/Garden%20City/GC1.jpg",
+      "https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/Garden%20City/GC10.jpg",
+      "https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/Garden%20City/GC2.jpg",
+      "https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/Garden%20City/GC3.jpg",
+      "https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/Garden%20City/GC4.jpg",
+      "https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/Garden%20City/GC5.jpg",
+      "https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/Garden%20City/GC6.jpg",
+      "https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/Garden%20City/GC7.jpg",
+      "https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/Garden%20City/GC8.jpg",
+      "https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/Garden%20City/GC9.jpg"
     ]
   },
   {
@@ -437,15 +437,15 @@
     "units": "9 units",
     "year": "2017",
     "featured": false,
-    "image_url": "/website-assets/Project Images/Northend Portfolio/CH1.jpg",
+    "image_url": "https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/Northend%20Portfolio/CH1.jpg",
     "gallery_images": [
-      "/website-assets/Project Images/Northend Portfolio/CH1.jpg",
-      "/website-assets/Project Images/Northend Portfolio/CH2.1.jpg",
-      "/website-assets/Project Images/Northend Portfolio/CH2.jpg",
-      "/website-assets/Project Images/Northend Portfolio/CH3.jpg",
-      "/website-assets/Project Images/Northend Portfolio/CH4.jpg",
-      "/website-assets/Project Images/Northend Portfolio/CH5.jpg",
-      "/website-assets/Project Images/Northend Portfolio/CH6.jpg"
+      "https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/Northend%20Portfolio/CH1.jpg",
+      "https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/Northend%20Portfolio/CH2.1.jpg",
+      "https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/Northend%20Portfolio/CH2.jpg",
+      "https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/Northend%20Portfolio/CH3.jpg",
+      "https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/Northend%20Portfolio/CH4.jpg",
+      "https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/Northend%20Portfolio/CH5.jpg",
+      "https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/Northend%20Portfolio/CH6.jpg"
     ]
   }
 ]

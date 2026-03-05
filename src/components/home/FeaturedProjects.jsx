@@ -15,7 +15,7 @@ export default function FeaturedProjects({ projects }) {
       project_type: 'Mixed-Use',
       status: 'In Development',
       slug: 'factory-yards',
-      image_url: '/website-assets/Project Images/FYMU/FYMU1.jpg'
+      image_url: 'https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/FYMU/FYMU1.jpg'
     },
     {
       id: 2,
@@ -24,7 +24,7 @@ export default function FeaturedProjects({ projects }) {
       project_type: 'Multifamily',
       status: 'Stabilized',
       slug: 'the-amo',
-      image_url: '/website-assets/Project Images/The Amo/Amo1.JPG'
+      image_url: 'https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/The%20Amo/Amo1.JPG'
     }
   ];
 
@@ -61,7 +61,7 @@ export default function FeaturedProjects({ projects }) {
               >
                 <div className="aspect-[4/3] bg-[#F3F2ED] overflow-hidden mb-6">
                   <Image
-                    src={project.image_url || '/website-assets/Project Images/FYMU/FYMU1.jpg'}
+                    src={project.image_url || 'https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/FYMU/FYMU1.jpg'}
                     alt={project.name}
                     width={800}
                     height={600}

@@ -8,17 +8,17 @@ featured: true
 square_feet: '450,000 sqft'
 year: '2026'
 units: 280 residential units
-image_url: '/website-assets/Project Images/FYMU/FYMU1.jpg'
+image_url: 'https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/FYMU/FYMU1.jpg'
 gallery_images:
-  - '/website-assets/Project Images/FYMU/FYMU1.jpg'
-  - '/website-assets/Project Images/FYMU/FYMU2.jpg'
-  - '/website-assets/Project Images/FYMU/FYMU3.jpg'
-  - '/website-assets/Project Images/FYMU/FYMU4.jpg'
-  - '/website-assets/Project Images/FYMU/FYMU5.jpg'
-  - '/website-assets/Project Images/FYMU/FYMU6.jpg'
-  - '/website-assets/Project Images/FYMU/FYMU7.jpg'
-  - '/website-assets/Project Images/FYMU/FYMU8.jpg'
-  - '/website-assets/Project Images/FYMU/FYMU9.jpg'
+  - 'https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/FYMU/FYMU1.jpg'
+  - 'https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/FYMU/FYMU2.jpg'
+  - 'https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/FYMU/FYMU3.jpg'
+  - 'https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/FYMU/FYMU4.jpg'
+  - 'https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/FYMU/FYMU5.jpg'
+  - 'https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/FYMU/FYMU6.jpg'
+  - 'https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/FYMU/FYMU7.jpg'
+  - 'https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/FYMU/FYMU8.jpg'
+  - 'https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Project%20Images/FYMU/FYMU9.jpg'
 overview: >-
   Factory Yards Mixed Use is a large-scale adaptive reuse and ground-up
   redevelopment transforming a historic industrial campus into a vibrant
