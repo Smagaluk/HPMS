@@ -1,26 +1,23 @@
 "use client";
 
-import React, { useState, useEffect } from 'react';
-import Link from 'next/link';
-import Image from 'next/image';
-import { createPageUrl } from '@/utils';
-import { Menu, X, ChevronDown } from 'lucide-react';
-import { motion, AnimatePresence } from 'framer-motion';
+import React, { useState, useEffect } from "react";
+import Link from "next/link";
+import Image from "next/image";
+import { createPageUrl } from "@/utils";
+import { Menu, X, ChevronDown } from "lucide-react";
+import { motion, AnimatePresence } from "framer-motion";
 
 const navLinks = [
-  { 
-    name: 'About', 
-    page: 'About',
+  {
+    name: "About",
+    href: createPageUrl("About"),
     submenu: [
-      { name: 'About Us', page: 'About' },
-      { name: 'Team', page: 'Team' },
-      { name: 'Investment Strategy', page: 'InvestmentStrategy' }
-    ]
+      { name: "About Us", href: createPageUrl("About") },
+      { name: "Privacy Policy", href: createPageUrl("PrivacyPolicy") },
+    ],
   },
-  { name: 'Projects', page: 'Projects' },
-  { name: 'Capabilities', page: 'Capabilities' },
-  { name: 'Investors', page: 'Investors' },
-  { name: 'Contact', page: 'Contact' }
+  { name: "Services", href: createPageUrl("Services") },
+  { name: "Contact", href: createPageUrl("Contact") },
 ];
 
 export default function Header() {
@@ -33,26 +30,27 @@ export default function Header() {
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 20);
     };
-    window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
   return (
     <header
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
-        isScrolled ? 'bg-white/95 backdrop-blur-sm shadow-sm' : 'bg-transparent'
+        isScrolled ? "bg-white/95 backdrop-blur-sm shadow-sm" : "bg-transparent"
       }`}
     >
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
         <div className="flex items-center justify-between h-20 lg:h-24">
           {/* Logo */}
-          <Link href={createPageUrl('Home')} className="flex items-center">
+          <Link href="/" className="flex items-center">
             <Image
-              src="https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Logos/Blue_Horizontal-removebg-preview.png"
-              alt="Heritage Development Partners"
-              width={200}
+              src="/logo/icon.png"
+              alt="Heritage Property Management Services"
+              width={48}
               height={48}
-              className="h-10 lg:h-12 w-auto"
+              className="h-10 lg:h-12 w-auto object-contain"
+              priority
             />
           </Link>
 
@@ -69,13 +67,17 @@ export default function Header() {
                     onMouseLeave={() => setHoveredNav(null)}
                   >
                     <Link
-                      href={createPageUrl(link.page)}
-                      className={`flex items-center gap-1 text-sm font-medium tracking-wide transition-colors duration-300 hover:text-[#1B2944] ${
-                        isScrolled ? 'text-[#474E5E]' : 'text-[#474E5E]'
+                      href={link.href}
+                      className={`flex items-center gap-1 text-sm font-medium tracking-[0.08em] transition-colors duration-300 hover:text-brand ${
+                        isScrolled ? "text-[#3d4646]" : "text-[#3d4646]"
                       }`}
                     >
                       {link.name}
-                      <ChevronDown className={`w-4 h-4 transition-transform duration-200 ${isHovered ? 'rotate-180' : ''}`} />
+                      <ChevronDown
+                        className={`w-4 h-4 transition-transform duration-200 ${
+                          isHovered ? "rotate-180" : ""
+                        }`}
+                      />
                     </Link>
                     <AnimatePresence>
                       {isHovered && (
@@ -84,13 +86,13 @@ export default function Header() {
                           animate={{ opacity: 1, y: 0 }}
                           exit={{ opacity: 0, y: -10 }}
                           transition={{ duration: 0.2 }}
-                          className="absolute top-full left-0 mt-2 w-48 bg-white rounded-md shadow-lg border border-stone-100 py-2 z-50"
+                          className="absolute top-full left-0 mt-2 w-48 bg-white shadow-lg border border-stone-100 py-2 z-50"
                         >
                           {link.submenu.map((subItem) => (
                             <Link
                               key={subItem.name}
-                              href={createPageUrl(subItem.page)}
-                              className="block px-4 py-2 text-sm text-[#474E5E] hover:bg-stone-50 hover:text-[#1B2944] transition-colors"
+                              href={subItem.href}
+                              className="block px-4 py-2 text-sm text-[#3d4646] hover:bg-stone-50 hover:text-brand transition-colors"
                             >
                               {subItem.name}
                             </Link>
@@ -104,9 +106,9 @@ export default function Header() {
               return (
                 <Link
                   key={link.name}
-                  href={createPageUrl(link.page)}
-                  className={`text-sm font-medium tracking-wide transition-colors duration-300 hover:text-[#1B2944] ${
-                    isScrolled ? 'text-[#474E5E]' : 'text-[#474E5E]'
+                  href={link.href}
+                  className={`text-sm font-medium tracking-[0.08em] transition-colors duration-300 hover:text-brand ${
+                    isScrolled ? "text-[#3d4646]" : "text-[#3d4646]"
                   }`}
                 >
                   {link.name}
@@ -119,11 +121,12 @@ export default function Header() {
           <button
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
             className="lg:hidden p-2 -mr-2"
+            aria-label="Toggle menu"
           >
             {mobileMenuOpen ? (
-              <X className="w-6 h-6 text-stone-900" />
+              <X className="w-6 h-6 text-[#26463C]" />
             ) : (
-              <Menu className="w-6 h-6 text-stone-900" />
+              <Menu className="w-6 h-6 text-[#26463C]" />
             )}
           </button>
         </div>
@@ -134,7 +137,7 @@ export default function Header() {
         {mobileMenuOpen && (
           <motion.div
             initial={{ opacity: 0, height: 0 }}
-            animate={{ opacity: 1, height: 'auto' }}
+            animate={{ opacity: 1, height: "auto" }}
             exit={{ opacity: 0, height: 0 }}
             className="lg:hidden bg-white border-t border-stone-100"
           >
@@ -146,37 +149,43 @@ export default function Header() {
                     <div key={link.name}>
                       <div className="flex items-center justify-between">
                         <Link
-                          href={createPageUrl(link.page)}
+                          href={link.href}
                           onClick={() => setMobileMenuOpen(false)}
-                          className="text-base font-medium text-[#474E5E] hover:text-[#1B2944] transition-colors"
+                          className="text-base font-medium text-[#3d4646] hover:text-brand transition-colors"
                         >
                           {link.name}
                         </Link>
                         <button
-                          onClick={() => setMobileExpandedNav(isExpanded ? null : link.name)}
+                          onClick={() =>
+                            setMobileExpandedNav(isExpanded ? null : link.name)
+                          }
                           className="p-1"
                           aria-label="Toggle submenu"
                         >
-                          <ChevronDown className={`w-4 h-4 transition-transform duration-200 ${isExpanded ? 'rotate-180' : ''}`} />
+                          <ChevronDown
+                            className={`w-4 h-4 transition-transform duration-200 ${
+                              isExpanded ? "rotate-180" : ""
+                            }`}
+                          />
                         </button>
                       </div>
                       <AnimatePresence>
                         {isExpanded && (
                           <motion.div
                             initial={{ opacity: 0, height: 0 }}
-                            animate={{ opacity: 1, height: 'auto' }}
+                            animate={{ opacity: 1, height: "auto" }}
                             exit={{ opacity: 0, height: 0 }}
                             className="pl-4 mt-2 space-y-2"
                           >
                             {link.submenu.map((subItem) => (
                               <Link
                                 key={subItem.name}
-                                href={createPageUrl(subItem.page)}
+                                href={subItem.href}
                                 onClick={() => {
                                   setMobileMenuOpen(false);
                                   setMobileExpandedNav(null);
                                 }}
-                                className="block text-sm text-[#474E5E] hover:text-[#1B2944] transition-colors"
+                                className="block text-sm text-[#3d4646] hover:text-brand transition-colors"
                               >
                                 {subItem.name}
                               </Link>
@@ -190,9 +199,9 @@ export default function Header() {
                 return (
                   <Link
                     key={link.name}
-                    href={createPageUrl(link.page)}
+                    href={link.href}
                     onClick={() => setMobileMenuOpen(false)}
-                    className="block text-base font-medium text-[#474E5E] hover:text-[#1B2944] transition-colors"
+                    className="block text-base font-medium text-[#3d4646] hover:text-brand transition-colors"
                   >
                     {link.name}
                   </Link>

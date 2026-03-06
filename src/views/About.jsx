@@ -1,170 +1,98 @@
 "use client";
 
-import React from 'react';
-import { motion } from 'framer-motion';
-import Link from 'next/link';
-import Image from 'next/image';
-import { createPageUrl } from '@/utils';
-import { ArrowRight, Shield, Target, Users, Lightbulb } from 'lucide-react';
-import SectionHeading from '@/components/ui/SectionHeading';
-
-const values = [
-  {
-    icon: Shield,
-    title: 'Integrity',
-    description: 'We operate with transparency and honesty in every interaction, building trust through consistent action.',
-  },
-  {
-    icon: Target,
-    title: 'Discipline',
-    description: 'Rigorous underwriting, patient capital deployment, and measured decision-making guide our approach.',
-  },
-  {
-    icon: Users,
-    title: 'Professionalism',
-    description: 'We maintain the highest standards in execution, communication, and stakeholder management.',
-  },
-  {
-    icon: Lightbulb,
-    title: 'Entrepreneurship',
-    description: 'We approach every project with initiative and ownership. This mindset transforms challenges into opportunities into lasting value for communities and investors.',
-  },
-];
+import React from "react";
+import Link from "next/link";
+import { createPageUrl } from "@/utils";
+import { motion } from "framer-motion";
+import { ArrowRight } from "lucide-react";
+import SectionHeading from "@/components/ui/SectionHeading";
 
 export default function About() {
   return (
     <div className="pt-20 lg:pt-24">
       {/* Hero */}
-      <section className="py-20 lg:py-28 bg-[#F3F2ED]">
+      <section className="py-20 lg:py-28 bg-[#F5F4F0]">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-            <motion.div
-              initial={{ opacity: 0, y: 30 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6 }}
-            >
-              <p className="text-xs font-semibold tracking-widest uppercase text-[#1B2944] mb-6">
-                About Us
-              </p>
-              <h1 className="text-4xl lg:text-5xl font-medium text-[#070707] tracking-tight leading-tight">
-                A thoughtful approach to real estate development.
-              </h1>
-              <p className="mt-6 text-lg text-[#474E5E] leading-relaxed">
-                Heritage Development Partners was founded on the belief that disciplined 
-                execution and long-term thinking create the most durable value—for investors, 
-                communities, and partners alike.
-              </p>
-            </motion.div>
-            <motion.div
-              initial={{ opacity: 0, scale: 0.95 }}
-              animate={{ opacity: 1, scale: 1 }}
-              transition={{ duration: 0.6, delay: 0.2 }}
-              className="relative"
-            >
-              <div className="aspect-[4/3] bg-stone-200 overflow-hidden">
-                <Image
-                  src="https://obv6axvizbscabq9.public.blob.vercel-storage.com/website-assets/Other%20Images/About%20us%20Page.JPG"
-                  alt="Heritage Development Partners office"
-                  width={800}
-                  height={600}
-                  className="w-full h-full object-cover"
-                />
-              </div>
-            </motion.div>
-          </div>
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6 }}
+            className="max-w-3xl"
+          >
+            <p className="text-xs font-semibold tracking-widest uppercase text-[#26463C] mb-6">
+              Heritage Living
+            </p>
+            <h1 className="text-4xl lg:text-5xl font-medium text-[#0a0a0a] tracking-tight leading-tight">
+              About Heritage Property Management Services
+            </h1>
+            <p className="mt-6 text-lg text-[#3d4646] leading-relaxed">
+              We believe property management is about people, not just buildings.
+              Our team is dedicated to thoughtful stewardship and creating places
+              where residents and businesses feel at home.
+            </p>
+          </motion.div>
         </div>
       </section>
 
-      {/* Story */}
+      {/* Main Content */}
       <section className="py-24 lg:py-32 bg-white">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <div className="max-w-3xl">
-            <SectionHeading
-              eyebrow="Our Story"
-              title="Built on experience, driven by purpose." description={undefined}            />
-            <div className="mt-8 space-y-6 text-[#474E5E] leading-relaxed">
-              <p>
-                Heritage Development Partners brings together deep expertise in real estate 
-                development, investment management, and capital structuring. Our team has 
-                developed and managed billions of dollars in real estate across Michigan, 
-                with a particular focus on projects that require creativity, persistence, 
-                and long-term commitment.
-              </p>
-              <p>
-                We specialize in adaptive reuse and mixed-use developments that transform 
-                underutilized properties into vibrant community assets. Our work in historic 
-                preservation, complex capital stacks, and public-private partnerships has 
-                earned us a reputation as a trusted partner for municipalities, institutions, 
-                and family offices alike.
-              </p>
-              <p>
-                Every project we undertake reflects our core belief: that responsible 
-                development can generate attractive returns while creating lasting positive 
-                impact for the communities we serve.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Values */}
-      <section className="py-24 lg:py-32 bg-white">
-        <div className="max-w-7xl mx-auto px-6 lg:px-8">
-          <SectionHeading
-            eyebrow="Our Values"
-            title="Principles that guide every decision."
-            align="center" description={undefined}          />
-          <div className="mt-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            {values.map((value, index) => (
-              <motion.div
-                key={value.title}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true, margin: "-100px" }}
-                transition={{ duration: 0.5, delay: index * 0.1 }}
-                className="text-center"
-              >
-                <div className="inline-flex items-center justify-center w-16 h-16 bg-white border border-[#474E5E]/20 rounded-full mb-6">
-                  <value.icon className="w-7 h-7 text-[#1B2944]" strokeWidth={1.5} />
-                </div>
-                <h3 className="text-lg font-medium text-[#070707] mb-3">
-                  {value.title}
-                </h3>
-                <p className="text-sm text-[#474E5E] leading-relaxed">
-                  {value.description}
-                </p>
-              </motion.div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Mission */}
-      <section className="py-24 lg:py-32 bg-[#F3F2ED]">
-        <div className="max-w-7xl mx-auto px-6 lg:px-8">
-          <div className="max-w-3xl mx-auto text-center">
             <motion.div
-              initial={{ opacity: 0, y: 30 }}
+              initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: "-100px" }}
               transition={{ duration: 0.6 }}
+              className="space-y-6 text-[#3d4646] leading-relaxed"
             >
-              <p className="text-xs font-semibold tracking-widest uppercase text-[#1B2944] mb-4">
-                Our Process
+              <p>
+                Heritage Property Management Services was founded on a simple idea:
+                every property deserves to be cared for, and every person who lives
+                or works in it deserves responsive, dependable service. We take pride
+                in maintaining buildings with attention and care—from the way we
+                handle leasing and resident communication to how we coordinate
+                maintenance and improvements.
               </p>
-              <h2 className="text-3xl lg:text-4xl font-medium tracking-tight text-[#070707] mb-8">
-                The way we work.
-              </h2>
-              <div className="aspect-[16/10.35] w-full max-w-4xl mx-auto overflow-hidden rounded-lg">
-                <iframe
-                  src="https://player.vimeo.com/video/917642924?badge=0&autopause=0&player_id=0&app_id=58479"
-                  frameBorder="0"
-                  allow="autoplay; fullscreen; picture-in-picture; clipboard-write"
-                  allowFullScreen
-                  title="2024 Factory Yards Project Overview"
-                  className="w-full h-full"
-                />
-              </div>
+              <p>
+                Our approach centers on stewardship. We treat each property as a
+                long-term responsibility, not just a short-term assignment. That
+                means staying attentive to resident needs, addressing repair requests
+                promptly, and ensuring properties stay clean, safe, and well kept.
+              </p>
+              <p>
+                We believe a well-maintained property improves quality of life and
+                strengthens communities. By caring for the buildings we manage, we
+                help residents feel at home and businesses feel proud of where they
+                operate.
+              </p>
+            </motion.div>
+          </div>
+        </div>
+      </section>
+
+      {/* Philosophy */}
+      <section className="py-24 lg:py-32 bg-[#F5F4F0]">
+        <div className="max-w-7xl mx-auto px-6 lg:px-8">
+          <div className="max-w-3xl">
+            <SectionHeading
+              eyebrow="Heritage Living"
+              title="Our Approach"
+              description="Maintain properties well. Respond to residents and tenants quickly. Manage with professionalism and care."
+            />
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true, margin: "-100px" }}
+              transition={{ duration: 0.6 }}
+              className="mt-6 text-[#3d4646] leading-relaxed"
+            >
+              <p>
+                We focus on preventative maintenance to keep buildings in good shape,
+                clear communication so residents and tenants always know where they
+                stand, and practical solutions that help each property thrive over
+                time. Our service-first mindset means we&apos;re here when you need
+                us—responsive, attentive, and dependable.
+              </p>
             </motion.div>
           </div>
         </div>
@@ -180,23 +108,24 @@ export default function About() {
             transition={{ duration: 0.6 }}
             className="text-center max-w-2xl mx-auto"
           >
-            <h2 className="text-3xl font-medium text-[#070707] tracking-tight">
+            <h2 className="text-3xl font-medium text-[#0a0a0a] tracking-tight">
               Ready to learn more?
             </h2>
-            <p className="mt-4 text-lg text-[#474E5E]">
-              Explore our portfolio or get in touch to discuss partnership opportunities.
+            <p className="mt-4 text-lg text-[#3d4646]">
+              Explore our services or reach out to discuss how we can help care for
+              your property and the people who live or work there.
             </p>
             <div className="mt-8 flex flex-col sm:flex-row justify-center gap-4">
               <Link
-                href={createPageUrl('Projects')}
-                className="inline-flex items-center justify-center px-8 py-4 bg-[#1B2944] text-white text-sm font-medium tracking-wide hover:bg-[#070707] transition-colors"
+                href={createPageUrl("Services")}
+                className="inline-flex items-center justify-center px-8 py-4 bg-[#26463C] text-white text-sm font-medium tracking-wide hover:bg-[#1a3028] transition-colors"
               >
-                View Our Projects
+                View Our Services
                 <ArrowRight className="ml-2 w-4 h-4" />
               </Link>
               <Link
-                href={createPageUrl('Contact')}
-                className="inline-flex items-center justify-center px-8 py-4 border border-[#474E5E] text-[#070707] text-sm font-medium tracking-wide hover:border-[#1B2944] transition-colors"
+                href={createPageUrl("Contact")}
+                className="inline-flex items-center justify-center px-8 py-4 border border-[#3d4646] text-[#0a0a0a] text-sm font-medium tracking-wide hover:border-brand transition-colors"
               >
                 Contact Us
               </Link>

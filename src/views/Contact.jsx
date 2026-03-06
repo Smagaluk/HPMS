@@ -1,44 +1,64 @@
 "use client";
 
-import React, { useState } from 'react';
-import { motion } from 'framer-motion';
-import { Button } from '@/components/ui/button';
-import { Input } from '@/components/ui/input';
-import { Textarea } from '@/components/ui/textarea';
-import { Label } from '@/components/ui/label';
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
-import { Mail, MapPin, Send, CheckCircle } from 'lucide-react';
+import React, { useState } from "react";
+import { motion } from "framer-motion";
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
+import { Textarea } from "@/components/ui/textarea";
+import { Label } from "@/components/ui/label";
+import { Mail, MapPin, Phone, Send, CheckCircle } from "lucide-react";
+
+const PHONE = "248-494-8593";
+const EMAIL = "hello@hrtgpm.com";
+const OFFICE = "Birmingham, Michigan";
 
 export default function Contact() {
   const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    company: '',
-    interest: '',
-    message: ''
+    name: "",
+    email: "",
+    phone: "",
+    propertyAddress: "",
+    message: "",
   });
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [isSubmitted, setIsSubmitted] = useState(false);
+  const [error, setError] = useState(null);
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    setError(null);
     setIsSubmitting(true);
-    
-    // Simulate form submission
-    await new Promise(resolve => setTimeout(resolve, 1000));
-    
-    setIsSubmitting(false);
-    setIsSubmitted(true);
+
+    try {
+      const res = await fetch("/api/contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(formData),
+      });
+
+      const data = await res.json();
+
+      if (!res.ok) {
+        throw new Error(data.error || "Something went wrong");
+      }
+
+      setIsSubmitted(true);
+      setFormData({ name: "", email: "", phone: "", propertyAddress: "", message: "" });
+    } catch (err) {
+      setError(err.message || "Failed to send message. Please try again.");
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   const handleChange = (field, value) => {
-    setFormData(prev => ({ ...prev, [field]: value }));
+    setFormData((prev) => ({ ...prev, [field]: value }));
   };
 
   return (
     <div className="pt-20 lg:pt-24">
       {/* Hero */}
-      <section className="py-20 lg:py-28 bg-[#F3F2ED]">
+      <section className="py-20 lg:py-28 bg-[#F5F4F0]">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -46,22 +66,21 @@ export default function Contact() {
             transition={{ duration: 0.6 }}
             className="max-w-3xl"
           >
-            <p className="text-xs font-semibold tracking-widest uppercase text-[#1B2944] mb-6">
-              Get in Touch
+            <p className="text-xs font-semibold tracking-widest uppercase text-[#26463C] mb-6">
+              Heritage Living
             </p>
-            <h1 className="text-4xl lg:text-5xl font-medium text-[#070707] tracking-tight leading-tight">
-              Let's start a conversation.
+            <h1 className="text-4xl lg:text-5xl font-medium text-[#0a0a0a] tracking-tight leading-tight">
+              Contact Us
             </h1>
-            <p className="mt-6 text-lg text-[#474E5E] leading-relaxed">
-              Whether you're exploring a development opportunity, seeking a capital 
-              partner, or interested in learning more about our work, we'd welcome 
-              the opportunity to connect.
+            <p className="mt-6 text-lg text-[#3d4646] leading-relaxed">
+              We would be happy to hear from you. Whether you are a resident,
+              tenant, or property owner, our team is here to help.
             </p>
           </motion.div>
         </div>
       </section>
 
-      {/* Contact Form */}
+      {/* Contact Form & Info */}
       <section className="py-16 lg:py-24 bg-white">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-16">
@@ -73,103 +92,126 @@ export default function Contact() {
                 transition={{ duration: 0.6, delay: 0.2 }}
               >
                 {isSubmitted ? (
-                  <div className="text-center py-16 px-8 bg-[#F3F2ED]">
+                  <div className="text-center py-16 px-8 bg-[#F5F4F0]">
                     <CheckCircle className="w-16 h-16 text-green-600 mx-auto mb-6" />
-                    <h2 className="text-2xl font-medium text-[#070707] mb-4">
+                    <h2 className="text-2xl font-medium text-[#0a0a0a] mb-4">
                       Thank you for reaching out.
                     </h2>
-                    <p className="text-[#474E5E] max-w-md mx-auto">
-                      We've received your message and will respond within 1-2 business days.
+                    <p className="text-[#3d4646] max-w-md mx-auto">
+                      We&apos;ve received your message and will get back to you
+                      within 1-2 business days.
                     </p>
                   </div>
                 ) : (
-                  <form onSubmit={handleSubmit} className="space-y-8">
+                  <form onSubmit={handleSubmit} className="space-y-6">
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                       <div>
-                        <Label htmlFor="name" className="text-sm font-medium text-[#070707]">
+                        <Label
+                          htmlFor="name"
+                          className="text-sm font-medium text-[#0a0a0a]"
+                        >
                           Name *
                         </Label>
                         <Input
                           id="name"
+                          name="name"
                           required
                           value={formData.name}
-                          onChange={(e) => handleChange('name', e.target.value)}
-                          className="mt-2 border-[#474E5E]/30 focus:border-[#1B2944] focus:ring-[#1B2944]"
+                          onChange={(e) => handleChange("name", e.target.value)}
+                          className="mt-2 border-[#3d4646]/30 focus:border-brand focus:ring-brand"
                           placeholder="Your name"
                         />
                       </div>
                       <div>
-                        <Label htmlFor="email" className="text-sm font-medium text-[#070707]">
+                        <Label
+                          htmlFor="email"
+                          className="text-sm font-medium text-[#0a0a0a]"
+                        >
                           Email *
                         </Label>
                         <Input
                           id="email"
+                          name="email"
                           type="email"
                           required
                           value={formData.email}
-                          onChange={(e) => handleChange('email', e.target.value)}
-                          className="mt-2 border-[#474E5E]/30 focus:border-[#1B2944] focus:ring-[#1B2944]"
+                          onChange={(e) => handleChange("email", e.target.value)}
+                          className="mt-2 border-[#3d4646]/30 focus:border-brand focus:ring-brand"
                           placeholder="your@email.com"
                         />
                       </div>
                     </div>
 
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                      <div>
-                        <Label htmlFor="company" className="text-sm font-medium text-[#070707]">
-                          Company / Organization
-                        </Label>
-                        <Input
-                          id="company"
-                          value={formData.company}
-                          onChange={(e) => handleChange('company', e.target.value)}
-                          className="mt-2 border-[#474E5E]/30 focus:border-[#1B2944] focus:ring-[#1B2944]"
-                          placeholder="Your organization"
-                        />
-                      </div>
-                      <div>
-                        <Label htmlFor="interest" className="text-sm font-medium text-[#070707]">
-                          Area of Interest
-                        </Label>
-                        <Select
-                          value={formData.interest}
-                          onValueChange={(value) => handleChange('interest', value)}
-                        >
-                          <SelectTrigger className="mt-2 border-[#474E5E]/30">
-                            <SelectValue placeholder="Select an option" />
-                          </SelectTrigger>
-                          <SelectContent>
-                            <SelectItem value="investment">Investment Partnership</SelectItem>
-                            <SelectItem value="development">Development Opportunity</SelectItem>
-                            <SelectItem value="municipal">Municipal Partnership</SelectItem>
-                            <SelectItem value="general">General Inquiry</SelectItem>
-                          </SelectContent>
-                        </Select>
-                      </div>
+                    <div>
+                      <Label
+                        htmlFor="phone"
+                        className="text-sm font-medium text-[#0a0a0a]"
+                      >
+                        Phone *
+                      </Label>
+                      <Input
+                        id="phone"
+                        name="phone"
+                        type="tel"
+                        required
+                        value={formData.phone}
+                        onChange={(e) => handleChange("phone", e.target.value)}
+                        className="mt-2 border-[#3d4646]/30 focus:border-brand focus:ring-brand"
+                        placeholder="(555) 123-4567"
+                      />
                     </div>
 
                     <div>
-                      <Label htmlFor="message" className="text-sm font-medium text-[#070707]">
+                      <Label
+                        htmlFor="propertyAddress"
+                        className="text-sm font-medium text-[#0a0a0a]"
+                      >
+                        Property Address (optional)
+                      </Label>
+                      <Input
+                        id="propertyAddress"
+                        name="propertyAddress"
+                        value={formData.propertyAddress}
+                        onChange={(e) =>
+                          handleChange("propertyAddress", e.target.value)
+                        }
+                        className="mt-2 border-[#3d4646]/30 focus:border-brand focus:ring-brand"
+                        placeholder="Property address"
+                      />
+                    </div>
+
+                    <div>
+                      <Label
+                        htmlFor="message"
+                        className="text-sm font-medium text-[#0a0a0a]"
+                      >
                         Message *
                       </Label>
                       <Textarea
                         id="message"
+                        name="message"
                         required
                         rows={6}
                         value={formData.message}
-                        onChange={(e) => handleChange('message', e.target.value)}
-                        className="mt-2 border-[#474E5E]/30 focus:border-[#1B2944] focus:ring-[#1B2944] resize-none"
-                        placeholder="Tell us about your inquiry..."
+                        onChange={(e) => handleChange("message", e.target.value)}
+                        className="mt-2 border-[#3d4646]/30 focus:border-brand focus:ring-brand resize-none"
+                        placeholder="How can we help? Tell us what's on your mind..."
                       />
                     </div>
+
+                    {error && (
+                      <p className="text-sm text-red-600" role="alert">
+                        {error}
+                      </p>
+                    )}
 
                     <Button
                       type="submit"
                       disabled={isSubmitting}
-                      className="w-full md:w-auto px-8 py-4 bg-[#1B2944] hover:bg-[#070707] text-white font-medium h-auto"
+                      className="w-full md:w-auto px-8 py-4 bg-[#26463C] hover:bg-[#1a3028] text-white font-medium h-auto"
                     >
                       {isSubmitting ? (
-                        'Sending...'
+                        "Sending..."
                       ) : (
                         <>
                           Send Message
@@ -189,39 +231,58 @@ export default function Contact() {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, delay: 0.3 }}
               >
-                <div className="bg-[#F3F2ED] p-8">
-                  <h3 className="text-sm font-semibold tracking-widest uppercase text-[#474E5E] mb-8">
+                <div className="bg-[#F5F4F0] p-8">
+                  <h3 className="text-sm font-semibold tracking-widest uppercase text-[#3d4646] mb-8">
                     Contact Information
                   </h3>
 
                   <div className="space-y-8">
                     <div className="flex items-start gap-4">
-                      <Mail className="w-5 h-5 text-[#1B2944] flex-shrink-0 mt-0.5" />
+                      <Phone className="w-5 h-5 text-[#26463C] flex-shrink-0 mt-0.5" />
                       <div>
-                        <p className="text-xs text-[#474E5E] uppercase tracking-wide mb-1">Email</p>
-                        <a 
-                          href="mailto:info@hrtgdev.com"
-                          className="text-[#070707] hover:text-[#1B2944] transition-colors"
+                        <p className="text-xs text-[#3d4646] uppercase tracking-wide mb-1">
+                          Phone
+                        </p>
+                        <a
+                          href={`tel:${PHONE.replace(/\D/g, "")}`}
+                          className="text-[#0a0a0a] hover:text-brand transition-colors"
                         >
-                          info@hrtgdev.com
+                          {PHONE}
                         </a>
                       </div>
                     </div>
 
                     <div className="flex items-start gap-4">
-                      <MapPin className="w-5 h-5 text-[#1B2944] flex-shrink-0 mt-0.5" />
+                      <Mail className="w-5 h-5 text-[#26463C] flex-shrink-0 mt-0.5" />
                       <div>
-                        <p className="text-xs text-[#474E5E] uppercase tracking-wide mb-1">Location</p>
-                        <p className="text-[#070707]">151 S Old Woodward</p>
-                        <p className="text-[#070707]">Birmingham, MI</p>
+                        <p className="text-xs text-[#3d4646] uppercase tracking-wide mb-1">
+                          Email
+                        </p>
+                        <a
+                          href={`mailto:${EMAIL}`}
+                          className="text-[#0a0a0a] hover:text-brand transition-colors"
+                        >
+                          {EMAIL}
+                        </a>
+                      </div>
+                    </div>
+
+                    <div className="flex items-start gap-4">
+                      <MapPin className="w-5 h-5 text-[#26463C] flex-shrink-0 mt-0.5" />
+                      <div>
+                        <p className="text-xs text-[#3d4646] uppercase tracking-wide mb-1">
+                          Office
+                        </p>
+                        <p className="text-[#0a0a0a]">{OFFICE}</p>
                       </div>
                     </div>
                   </div>
 
-                  <div className="mt-12 pt-8 border-t border-[#474E5E]/20">
-                    <p className="text-sm text-[#474E5E] leading-relaxed">
-                      We typically respond to inquiries within 1-2 business days. 
-                      For urgent matters, please indicate so in your message.
+                  <div className="mt-12 pt-8 border-t border-[#3d4646]/20">
+                    <p className="text-sm text-[#3d4646] leading-relaxed">
+                      We aim to respond to every inquiry within 1-2 business days.
+                      For urgent matters, please call us directly—we&apos;re here
+                      to help.
                     </p>
                   </div>
                 </div>

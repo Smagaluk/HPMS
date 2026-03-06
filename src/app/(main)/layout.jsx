@@ -8,7 +8,7 @@ export const dynamic = 'force-dynamic';
 
 export default function MainLayout({ children }) {
   return (
-    <div className="min-h-screen flex flex-col bg-white">
+    <div className="min-h-screen flex flex-col bg-white text-[#0a0a0a]">
       <Header />
       <main className="flex-1">
         <AuthWrapper>{children}</AuthWrapper>
